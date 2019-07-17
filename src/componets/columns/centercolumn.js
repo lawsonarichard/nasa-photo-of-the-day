@@ -1,13 +1,14 @@
 import React, { useState } from "react";
-import Grid from "../grid/grid";
+import NasaCard from "../grid/grid";
 
 //imports
 
 const CenterColumn = ()  => {
     return (
         <div className="centerColumnWrapper">
-            Center Column Wrapper
-            <Grid />
+            
+            <div className="gridContainer"><NasaCard /></div>
+            
         </div>
     );
 };

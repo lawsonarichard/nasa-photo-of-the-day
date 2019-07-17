@@ -7,7 +7,9 @@ const Header = () => {
 
 return (
     <div className="headerContainer"> 
-        HEADER CONTAINER
+    <div className="logo">Daily Meower</div>
+        <h1>The time: 9:18pm, July 20, AD 1969</h1>
+
     </div>
 );
 };

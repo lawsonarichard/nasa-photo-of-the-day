@@ -1,5 +1,8 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
 .App {
   text-align: center;
+  width: 1280px;
+  margin: 0 auto;
 }
 
 .App-logo {
@@ -34,49 +37,85 @@
 /* HEADER */
 .headerContainer {
   width: 100%;
-  background-color: blue;
+  padding: 20px;
+  display: flex;
+  justify-content: flex-start;
+}
+.logo {
+  background-color: red;
+  font-size:3em;
+  padding:20px;
+  width:200px;
+  color: white;
+  text-align:right;
+}
+.headerContainer h1 {
   
+  font-size: 5em;
+  padding: 20px;
+  width: 80%;
+  text-align: right;
+  align-items: flex-end; 
+}
+.headerContainer .last-item {
+  margin-left:auto;
 }
 
 /* MAIN */
 .maincontainer {
   width: 100%;
-  background-color:RED;
   display: flex;
   flex-direction: row;
+
 }
 
 /* COLUMNS */
 .leftColumnWrapper {
   width: 30%;
-  background-color: purple;
+
 }
 
 .centerColumnWrapper {
   width:60%;
-  background-color: green;
+
 }
 .gridContainer {
-  padding: 20px;
+
 }
 
 /* GRID */
 
 .imageWrapper {
-  margin: 5px;
-  width:98%;
+  width:93%;
 }
 .imageWrapper img {
   width:100%;
   height:auto;
 }
 .rightColumnWrapper {
-  width: 30%;
-  background-color: pink;
+  width: 40%;
+
+ 
+}
+ h1 {
+  font-size: 9em;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+ }
+  h2 {
+    font-size: 2.4em;
+    text-align: center;
+  }
+
+p {
+  font-size: 1.2em;
+  text-align:justify;
+
 }
 
 /* FOOTER */
 .footerWrapper {
   width: 100%;
-  background-color: orange;
+
 }

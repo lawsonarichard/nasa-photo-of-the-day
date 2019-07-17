@@ -4,7 +4,7 @@ import React, { useState } from "react";
 const Footer = () => {
     return (
         <div className="footerWrapper">
-            Footer Wrapper
+            
         </div>
     );
 };
