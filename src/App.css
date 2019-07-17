@@ -31,3 +31,39 @@
     transform: rotate(360deg);
   }
 }
+/* HEADER */
+.headerContainer {
+  width: 100%;
+  background-color: blue;
+  
+}
+
+/* MAIN */
+.maincontainer {
+  width: 100%;
+  background-color:RED;
+  display: flex;
+  flex-direction: row;
+}
+
+/* COLUMNS */
+.leftColumnWrapper {
+  width: 30%;
+  background-color: purple;
+}
+
+.centerColumnWrapper {
+  width:60%;
+  background-color: green;
+}
+
+.rightColumnWrapper {
+  width: 30%;
+  background-color: pink;
+}
+
+/* FOOTER */
+.footerWrapper {
+  width: 100%;
+  background-color: orange;
+}
