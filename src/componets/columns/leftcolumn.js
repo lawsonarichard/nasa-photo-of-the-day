@@ -4,7 +4,7 @@ import React, { useState } from "react";
 
 const LeftColumn = () => {
     return (
-        <div class="leftColumnWrapper">
+        <div className="leftColumnWrapper">
             Left Column Wrapper
         </div>
     );

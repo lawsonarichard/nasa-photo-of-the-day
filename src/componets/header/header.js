@@ -6,7 +6,7 @@ import headerImage from "../header/headerImage";
 const Header = () => {
 
 return (
-    <div class="headerContainer"> 
+    <div className="headerContainer"> 
         HEADER CONTAINER
     </div>
 );

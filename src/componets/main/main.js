@@ -7,7 +7,7 @@ import CenterColumn from "../columns/centercolumn";
 
 const Main = () => {
     return (
-        <div class="maincontainer">
+        <div className="maincontainer">
             <LeftColumn />
             <CenterColumn />
             <RightColumn />

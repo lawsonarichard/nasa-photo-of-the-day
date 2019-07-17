@@ -3,7 +3,7 @@ import React, { useState } from "react";
 
 const RightColumn = () => {
     return (
-        <div class="rightColumnWrapper">
+        <div className="rightColumnWrapper">
             Right columnwrapper
         </div>
     );

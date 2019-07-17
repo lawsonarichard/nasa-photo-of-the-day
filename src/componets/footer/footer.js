@@ -3,10 +3,10 @@ import React, { useState } from "react";
 
 const Footer = () => {
     return (
-        <div class="footerWrapper">
+        <div className="footerWrapper">
             Footer Wrapper
         </div>
     );
 };
 
-export default Footer;
+export default Footer

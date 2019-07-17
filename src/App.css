@@ -56,7 +56,20 @@
   width:60%;
   background-color: green;
 }
+.gridContainer {
+  padding: 20px;
+}
 
+/* GRID */
+
+.imageWrapper {
+  margin: 5px;
+  width:98%;
+}
+.imageWrapper img {
+  width:100%;
+  height:auto;
+}
 .rightColumnWrapper {
   width: 30%;
   background-color: pink;
