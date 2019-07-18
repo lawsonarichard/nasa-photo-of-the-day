@@ -2,6 +2,10 @@ import React, { useEffect, useState } from "react";
 import axios from 'axios';
 
 
+
+
+
+
 export default function NasaCard (){
     const [image, setImage] = useState([]);
     const [title, setTitle] = useState([]);
@@ -25,6 +29,7 @@ export default function NasaCard (){
         setCopyright(copyright);
     });
     }, []);
+    
 
  return (
        <div className="gridContainer">
@@ -35,6 +40,7 @@ export default function NasaCard (){
             <h2>{copyright}</h2>
             <p>{date}</p>
             <p>{content}</p>
+            
         </div>
         </div>
  );
