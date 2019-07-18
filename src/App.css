@@ -1,7 +1,16 @@
+@import url('https://fonts.googleapis.com/css?family=DM+Serif+Display&display=swap');
+
+
 .App {
   text-align: center;
+  width: 1280px;
+  margin: 0 auto;
 }
-
+@media  (max-width:500px) {
+  .App {
+    width:500px;
+  }
+}
 .App-logo {
   animation: App-logo-spin infinite 20s linear;
   height: 40vmin;
@@ -30,4 +39,108 @@
   to {
     transform: rotate(360deg);
   }
+}
+/* HEADER */
+.headerContainer {
+  width: 100%;
+  margin-top:20px;
+  display: flex;
+  justify-content: flex-start;
+ 
+}
+.logo {
+  background-color: red;
+  font-size:3em;
+  padding:20px;
+  width:200px;
+  color: white;
+  text-align:right;
+}
+@media (max-width:500px) {
+  .logo {
+    width: 40%;
+  }
+}
+.headerContainer h1 {
+  
+  font-size: 5em;
+  padding: 20px;
+  width: 80%;
+  text-align: right;
+  align-items: flex-end; 
+}
+.headerContainer .last-item {
+  margin-left:auto;
+}
+
+/* MAIN */
+.maincontainer {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+
+}
+
+/* COLUMNS */
+.leftColumnWrapper {
+  width: 30%;
+
+}
+
+.centerColumnWrapper {
+  width:60%;
+
+}
+.gridContainer {
+
+}
+
+/* GRID */
+
+.imageWrapper {
+  width:93%;
+}
+.imageWrapper img {
+  width:100%;
+  height:auto;
+}
+.rightColumnWrapper {
+  width: 40%;
+
+ 
+}
+.rightColumnWrapper .imageWrapper {
+  width:100%;
+}
+.rightColumnWrapper h1 {
+  font-size:3em;
+}
+ h1 {
+  font-size: 9em;
+  text-align: left;
+  padding: 0px;
+  margin: 0px;
+ }
+  h2 {
+    font-size: 2.4em;
+    text-align: center;
+  }
+
+p {
+  font-size: 1.2em;
+  text-align:justify;
+
+}
+
+/* FOOTER
+.footerWrapper {
+  width: 100%;
+
+} */
+
+/* MENU */
+.nav {
+  width: 100%;
+  font-size: 2em;
+  align-items:center;
 }
